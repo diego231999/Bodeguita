@@ -24,7 +24,7 @@ import java.util.Date;
 @WebServlet(name = "BodegaServlet", urlPatterns = "/BodegaServlet")
 public class BodegaServlet extends HttpServlet {
     Producto p = new Producto();
-    String Nombre = "Yarleque LA CONCHA DE TU MADRE";
+    String Nombre = "goku";
     private String rucBodega="12534467813";
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         DaoProducto dp = new DaoProducto();
