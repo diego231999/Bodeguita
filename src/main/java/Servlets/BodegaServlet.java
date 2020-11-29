@@ -35,6 +35,7 @@ public class BodegaServlet extends HttpServlet {
         double precio = 0.0;
         String nombre = "";
         String descripcion = "";
+        String cccc="";
 
         boolean verificador = true;
         boolean verificador2 = true;
